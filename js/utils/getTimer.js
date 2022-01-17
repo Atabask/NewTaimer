@@ -1,13 +1,13 @@
-import {Howl, Howler} from '../../node_modules/howler/dist/howler.js';
+// import {Howl, Howler} from '../libs/howler.js';
 
-const sound = new Howl({
-  src: '../audio/audio.mp3'
-});
+// const sound = new Howl({
+//   src: '../audio/audio.mp3'
+// });
 
 
-sound.play();
+// sound.play();
 
-Howler.volume(0.5);
+// Howler.volume(0.5);
 
 window.startTimer = function() {
     let timer = document.getElementById("timer");   
